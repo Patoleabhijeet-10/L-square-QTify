@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
 
     return <div className="navbar">
-        <img src='Group-1.png' alt='its not present'  />
+       <div><img src='Logo.png' alt='its not present'  /></div> 
         <SearchBox />
         <Button>Give Feedback</Button>
     </div>
